@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+}
+
+table {
+  width: 600px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+th {
+  max-width: 125px;
+  width: 125px;
+  word-wrap: break-word;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+th:hover {
+  overflow: visible;
+  white-space: normal;
+}
+
+td:hover {
+  overflow: visible;
+  white-space: normal;
+}
+
+td {
+  border-collapse: collapse;
+  border: 2px solid black;
+  max-width: 125px;
+  width: 125px;
+  word-wrap: break-word;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+thead {
+  background: black;
+  color: #fff;
+}
+
+tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 100px;
+}
+
+thead tr {
+  display: block;
+}
+
+tr:nth-child(even) {
+  background: rgb(219, 209, 209);
+}
